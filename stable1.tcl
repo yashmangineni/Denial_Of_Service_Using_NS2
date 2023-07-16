@@ -2,11 +2,11 @@
 set ns [new Simulator]
 
 #create trace file
-set tracefile [open stable1.tr w]
+set tracefile [open stabletcp.tr w]
 $ns trace-all $tracefile
 
 #nam file creation
-set namfile [open stable1.nam w]
+set namfile [open stabletcp.nam w]
 $ns namtrace-all $namfile
 
 #finish procedure
