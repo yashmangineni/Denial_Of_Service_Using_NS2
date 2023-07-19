@@ -59,7 +59,6 @@ $cbr2 set packet_size_ 4000
 $cbr2 set rate_ 0.6mb
 $cbr2 set random_ false
 
-#File: /home/prasad/Desktop/Project/dos.tcl Page 2 of 2
 $cbr2 set interval_ 0.05
 set cbr3 [new Application/Traffic/CBR]
 $cbr3 attach-agent $udp3
